@@ -38,6 +38,8 @@ connectDB();
 
 // Манай рест апиг дуудах эрхтэй сайтуудын жагсаалт :
 var whitelist = [
+  "http://localhost:3000",
+  "http://localhost:3001",
   "http://ubtimes.metaldoor.mn",
   "http://www.ubtimes.metaldoor.mn",
   "https://ubtimes.metaldoor.mn",
