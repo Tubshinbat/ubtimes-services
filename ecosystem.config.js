@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "barilga-cms-api",
+      name: "ubtimes-cms-api",
       script: "npm start",
       args: ["--color"],
       env: {

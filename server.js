@@ -37,7 +37,24 @@ const app = express();
 connectDB();
 
 // Манай рест апиг дуудах эрхтэй сайтуудын жагсаалт :
-var whitelist = ["http://localhost:3000", "http://localhost:3001"];
+var whitelist = [
+  "http://ubtimes.metaldoor.mn",
+  "http://www.ubtimes.metaldoor.mn",
+  "https://ubtimes.metaldoor.mn",
+  "https://www.ubtimes.metaldoor.mn",
+  "https://ubtimes.mn",
+  "https://www.ubtimes.mn",
+  "http://ubtimes.mn",
+  "http://www.ubtimes.mn",
+  "http://ubtimes-admin.metaldoor.mn",
+  "http://www.ubtimes-admin.metaldoor.mn",
+  "https://ubtimes-admin.metaldoor.mn",
+  "https://www.ubtimes-admin.metaldoor.mn",
+  "http://admin.ubtimes.mn",
+  "http://www.admin.ubtimes.mn",
+  "https://admin.ubtimes.mn",
+  "https://www.admin.ubtimes.mn",
+];
 
 // Өөр домэйн дээр байрлах клиент вэб аппуудаас шаардах шаардлагуудыг энд тодорхойлно
 var corsOptions = {
